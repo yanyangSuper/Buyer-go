@@ -1,6 +1,4 @@
-echo '#!/usr/bin/env sh
+#!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx lint-staged' > .husky/pre-commit
-
-chmod +x .husky/pre-commit
+npx lint-staged

@@ -5,8 +5,8 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
-  const ab = 1;
-  const a = { name: 'yang' };
+  const rr = 4;
+  console.log(rr);
 
   return (
     <>
