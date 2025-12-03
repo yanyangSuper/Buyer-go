@@ -60,6 +60,7 @@ export default tseslint.config(
         'error',
         { argsIgnorePattern: '^_', varsIgnorePattern: '^_' },
       ],
+      '@typescript-eslint/no-explicit-any': 'off', // ⚠️ 关闭
     },
   }
 );

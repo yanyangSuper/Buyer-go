@@ -23,7 +23,9 @@
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6",
+    "zustand": "^5.0.9"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
@@ -44,8 +46,10 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.7.3",
+    "rollup-plugin-visualizer": "^6.0.5",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "vite-plugin-compression": "^0.5.1"
   }
 }
