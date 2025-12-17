@@ -8,11 +8,7 @@ import store2 from '@/assets/home/store2.png';
 import store3 from '@/assets/home/store3.png';
 import store4 from '@/assets/home/store4.png';
 import './index.less';
-import {
-  UserOutlined,
-  ShoppingOutlined,
-  DownOutlined,
-} from '@ant-design/icons';
+import { UserOutlined, ShoppingOutlined, DownOutlined } from '@ant-design/icons';
 import { Dropdown, Space, Button, Flex } from 'antd';
 import type { MenuProps } from 'antd';
 
@@ -74,11 +70,7 @@ export function HomePage() {
                 </Space>
               </a>
             </Dropdown>
-            <input
-              className="search-ipt"
-              type="text"
-              placeholder="Search anthing"
-            />
+            <input className="search-ipt" type="text" placeholder="Search anthing" />
           </div>
           <div className="menus">
             <Space size={'large'}>
@@ -104,11 +96,7 @@ export function HomePage() {
               </Space>
             </Space>
           </div>
-          <Button
-            type="primary"
-            style={{ width: '100%', background: '#1C3B5E' }}
-            shape="round"
-          >
+          <Button type="primary" style={{ width: '100%', background: '#1C3B5E' }} shape="round">
             DROPHIPPING
           </Button>
         </div>
@@ -127,15 +115,12 @@ export function HomePage() {
         <Flex gap="middle" justify="space-between">
           {recommendList.map((item, index) => (
             <div className="recommend-item" key={index}>
-              <img
-                style={{ height: '355px', width: '330px' }}
-                src={item.img}
-                alt=""
-              />
+              <img style={{ height: '355px', width: '330px' }} src={item.img} alt="" />
             </div>
           ))}
         </Flex>
       </div>
+      <div className="newvendos">SHOP ALL NEW VENDORS</div>
     </div>
   );
 }
